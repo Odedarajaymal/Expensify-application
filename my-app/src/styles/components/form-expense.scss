@@ -1,0 +1,57 @@
+.container{
+    margin-top: 30px;
+   
+    flex-grow: 4;
+     text-align: center;
+    
+}
+.remove{
+    padding: 15px;
+    margin-top:10px;
+    font: outline;
+    font-weight:bold;
+    margin-right: 770px;
+    background: darkcyan;
+    border: 1px solid;
+    color: white;
+}
+
+.button{
+    padding: 15px;
+    margin-right:4px;
+    font: outline;
+    font-weight:bold;
+    background: darkcyan;
+    border: 1px solid;
+    color: white;
+    
+}
+
+.note{
+    padding: 15px;
+    margin-right:4px;
+    font: outline;
+    font-weight:bold;
+  
+}
+
+.form-control{
+    flex-direction:column;
+
+}
+
+@media(max-width: 1000px){
+    .container{
+        justify-self: start;
+        justify-content:column;
+    }
+    .button{
+        padding: 20px;
+        margin-top: 5px;
+    }
+    .text{
+        padding-bottom: 5px;
+        flex-grow: 4;
+     
+    }
+}
